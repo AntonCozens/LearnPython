@@ -10,6 +10,8 @@ i3 = '(()()'
 i4 = '()(()()((()))'
 
 def WellMatched(input: str) -> bool:
+    OpenCount = 0
     for c in input:
         if c == '(':
-            count = count + 1
+            OpenCount = OpenCount + 1
+    print(OpenCount)
