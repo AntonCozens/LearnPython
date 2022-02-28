@@ -14,4 +14,12 @@ def WellMatched(input: str) -> bool:
     for c in input:
         if c == '(':
             OpenCount = OpenCount + 1
-    print(OpenCount)
+        else:
+            OpenCount = OpenCount - 1
+        if OpenCount < 0:
+            print(False)
+            return
+    if OpenCount > 0:
+        print(False)
+    else:
+        print(True)
