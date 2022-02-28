@@ -2,5 +2,5 @@ echo "# Lesson 1" > lesson_1.md
 echo "" >> lesson_1.md
 
 echo "\`\`\`" >> lesson_1.md
-cat ./course_1/brackets.py | grep '^i' >> lesson_1.md
+git show c031785711c4493f33fdd256e034b649c0c8f9cf:./course_1/brackets.py | grep '^i' >> lesson_1.md
 echo "\`\`\`" >> lesson_1.md
