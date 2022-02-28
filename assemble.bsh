@@ -1,6 +1,6 @@
 echo "# Lesson 1" > lesson_1.md
 echo "" >> lesson_1.md
 
-echo "<code>" >> lesson_1.md
+echo "\`\`\`" >> lesson_1.md
 cat ./course_1/brackets.py | grep '^i' >> lesson_1.md
-echo "</code>" >> lesson_1.md
+echo "\`\`\`" >> lesson_1.md
